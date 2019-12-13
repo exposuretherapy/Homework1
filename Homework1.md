@@ -26,65 +26,110 @@ It is this author's opinion that Mint was able to acquire their massive customer
 
 3. Check acquisition - this allowed Mint to provide bill pay from the app. In addition to this, and mentioned earlier, Mint purchased Check's revenue stream, which is built on credit card and insurance advertisements. Mint has leveraged this stream to recommend specific credit cards to their users, and to provide a quick check on the user's credit score. - a targeted service that competitors cannot offer (8,9).
 
-* Which technologies are they currently using, and how are they implementing them? (This may take a little bit of sleuthing–– you may want to search the company’s engineering blog or use sites like Stackshare to find this information.)
-	Security
-	(10) - Account aggregation - proprietary tech
-		Transaction Classification - standard industry classification codes (yellow page search engine)
-	(11) - use this source for all this shit bruh.
+### Technologies in Use
+
+The following presents an overview of all of the technologies and applications that Mint uses to provide its service. Sleuthing is still underway to find descriptions of the exact Fintech algorithms and technologies that Mint employs. The majority of these technologies were found using Crunchbase.com (24)
+
+#### 	Security
+* Account aggregation - proprietary tech
+* Transaction Classification - standard industry classification codes (yellow page search engine)
+
+####	Application Data
+* PHP
+	* What is it: Programming language for web development. Server side scripting, command line scripting, writing desktop applications
+
+	* How it works: works with web server to deliver web pages to specific computers that are requesting information. Web pages use some scripting language (html, others) to communicate the web page data. Server interprets that language and turns it into something useful. (15)
 	
-	Application Data
-	PHP
-		What: Programming language for web development. Server side scripting, command line scripting, writing desktop app
-		How: works with web server to deliver web pages to specific computers that are requesting information. Web pages use some scripting language (html, others) to communicate the web page data. Server interprets that language and turns it into something useful. (15)
-		Mint uses this to make their website look.
-	Nginx
-		What: NGINX is open source software for web serving, reverse proxying, caching, load balancing, media streaming, and more.
-		How: Basically it's a web server that allows for performance optimization under scale. Uses asynchronous, event-driven approach where requests are handled in a single thread as opposed to new processes for each web request. This multiple processes can be controled by a single process. 
-	Bootstrap
-		What: Framework for developing responsive and mobile-first websites. 
-		How: 
-		Mint uses this to allow users to run the app on any mobile device
-	Utilities
-	Amazon Cloudfront
-		What: web service that speeds up distribution of your static and dynamic web content, such as . html, . css, . js, and image files, to your users.
-		How: 
-	Mixpanel
-		What: Mixpanel is a business analytics service company. It tracks user interactions with web and mobile applications and provides tools for targeted communication with them.
-		How: 
-	Clicktale
-		What: tells the story of your customer's behavior. We transform digital interactions into meaningful insights and visualizations,
-		How:
+	* Author's Understanding: Mint uses PHP to quickly translate packets of information from the user to Mint's servers.
+
+* Nginx
+	* What is it: NGINX is open source software for web serving, reverse proxying, caching, load balancing, media streaming, and more.
 	
-	DevOps
-	NewRelic
-		What: Analytics. View and analyze date, 
-		How: Application performance monitoring (APM) as SaaS (wasdat?)
-	Varnish
-		What: increases speed of a website while simultaneously reducing load on the web server. "Caching HTTP reverse proxy"
-		How:
-	Salt
-		What: Infrastructure Management. Orchestration?, Remote execution, configuration mgmt, etc.
-		How: Google Analytics, PHP, nginx
-	AlertBot
-		What: fully integrated monitoring platform. Monitors whatever you tell it to.
-		How: 
-	Business Tools
-	Jira 
-		What: Agile product development tool
-		How
-	Drupal 
-		What: Free and open-source content mgmt framework
-		How:
-	Get Satisfaction
-		What: Customer satisfaction software that seems to integrate the software into social media, establish online chat tools, etc.
-		How:
+	* How it works: Basically it's a web server that allows for performance optimization under scale. Uses asynchronous, event-driven approach where requests are handled in a single thread as opposed to new processes for each web request. This multiple processes can be controled by a single process. 
+	
+	* Author's Understanding: Mint uses this...
+
+* Bootstrap
+	* What is it: Framework for developing responsive and mobile-first websites. 
+	
+	* How it works: 
+	
+	* Author's Understanding: Mint uses this to allow users to run the app on a multitude of mobile devices, thus allowing different types of hardware (specifically cell phones or tablets) to utilize their application. 
+	
+#### Utilities
+* Amazon Cloudfront
+	
+	* What is it: web service that speeds up distribution of your static and dynamic web content, such as . html, . css, . js, and image files, to your users.
+	
+	* How it works: 
+	
+	* Author's Understanding: 
+
+* Mixpanel
+	* What is it: Mixpanel is a business analytics service company. It tracks user interactions with web and mobile applications and provides tools for targeted communication with them.
+
+	* How it works: 
+	
+	* Author's Understanding: 
+	
+* Clicktale
+	* What is it: tells the story of your customer's behavior. We transform digital interactions into meaningful insights and visualizations,
+	
+	* How it works:
+	
+	* Author's Understanding: 
+#### DevOps
+* NewRelic
+	*What is it: Analytics. View and analyze date, 
+
+	* How it works: Application performance monitoring (APM) as SaaS (wasdat?)
+
+	* Author's Understanding: 
+	
+* Varnish
+	* What is it: increases speed of a website while simultaneously reducing load on the web server. "Caching HTTP reverse proxy"
+	
+	* How it works:
+
+	* Author's Understanding:
+
+* Salt
+	* What is it: Infrastructure Management. Orchestration?, Remote execution, configuration mgmt, etc.
 		
-	What are the specific Fintech technologies that Mint uses?
-	In order to get user's financial data: Intuit's API (Application Programming Interface)
-	To get CC Score and other things: Through Acquisition of Check: Uses equifax?
+	* How it works: Google Analytics, PHP, nginx
+
+	* Author's Understanding:
+
+* AlertBot
+	* What is it: fully integrated monitoring platform. Monitors whatever you tell it to.
 	
-	Other: 
-	Our technology was all open source, and essentially all free: MySQL at the bottom, Hibernate to avoid the need to hire a DBA, Tomcat on Apache, Yahoo’s YUI served as the base for our AJAXy goodness.
+	* How it works: 
+	
+	* Author's Understanding: 
+
+#### Business Tools
+* Jira 
+	* What is it: Agile product development tool
+	
+	* How it works:
+
+	* Author's Understanding:
+* Drupal 
+	* What is it: Free and open-source content mgmt framework
+	
+	* How it works:
+
+	* Author's Understanding:
+
+* Get Satisfaction
+	* What is it: Customer satisfaction software that seems to integrate the software into social media, establish online chat tools, etc.
+
+	* How it works:
+
+	* Author's Understanding: 
+
+#### Specific Fintech Technologies
+Still sleuthing about for this information.
 	
 ## Landscape:
 * What domain of the financial industry is the company in?
@@ -142,3 +187,4 @@ Sources:
 * (21) - https://www.quora.com/How-did-Mint-acquire-1-0m+-users-without-a-high-viral-coefficient-scalable-SEO-strategy-or-paid-customer-acquisition-channel
 * (22) - https://www.wsj.com/articles/intuit-in-talks-to-buy-mobile-finance-app-1398826760?tesla=y
 * (23) - https://www.crunchbase.com/organization/intuit#section-interest-signals-by-bombora
+* (24) - https://www.crunchbase.com/organization/haveamint#section-overview
