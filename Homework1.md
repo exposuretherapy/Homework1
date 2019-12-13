@@ -7,28 +7,24 @@ After a couple of months of neglecting his financial entries, he found that he h
 
 The company was originally funded by Aaron himself, to make sure that it was viable and strong. He used money from his savings to pay engineers, and made sure that the product would perform well before seeking outside investment (2), (17). 
 
-Investment began slowly at first, but after winning a TechCrunch challenge in early 2009, interest began growing. By September of 2009, Aaron had sold the company to Intuit for $170 Million. (2), (3). 
-
-* How did the idea for the company (or project) come about?
-	Aaron was using multiple services for personal financial management. He hadn't logged into Quickbooks in a few months, and when he did, his transactions weren't automatically categorized. That was an issue for him. 
-
-* How is the company funded? How much funding have they received? 
-	Series C Funding (1). $31M from DAG Vent. Shasta Vent. And First Round Cap, angel invest Ram Shriram. Latest round of $14M. (2) Full sell to Intuit for $170M (4). Mint is fully owned by a publicly traded company, Intuit now.
+Investment began slowly at first, but after winning a TechCrunch challenge in early 2009, interest began growing (2). Mint's most recent Series C Funding was about $31M from DAG Ventures and Shasta Ventures. THe first round cap came from angel investor Ram Shriram (1). By September of 2009, Aaron had sold the company to Intuit for $170 Million(3). 
+ 
 
 ## Business Activities:
-* What specific financial problem is the company or project trying to solve? 
-	Personal budgeting and tracking your wealth at a snapshot. (1) Mint also guides users on things like what debt to pay first, how they could be making more money, etc. (4) (5).
-	
-	Automatically pulls in your financial activity, categorizes it, and shows you how to make money. Historically, banks did a terrible job at this. It pulls financial data from multiple sources and accounts. 
 
-* Who is the company's intended customer?  Is there any information about the market size of this set of customers?
-	Primary customer is any online user that is interested in getting a hold of their personal finances. (Inferred.) Customer size is over 20 million (7). They have found young professionals to be most common cust. 
+Mint came into existence to solve two problems. The first problem was that transactions in traditional personal finance applications were neither categorized, nor usefully labeled. The second problem was that the categorization did not automatically update the transaction into a useful snapshot of a user's budget(2). Mint solved these two problems early on in the process, but because they were so focused on ensuring the software was successful before releasing it, the engineers at Mint were able to tack another useful feature onto to application. Instead of just showing a budget to users, Mint shows users a full snapshot of their net worth. In addition to this, Mint also guides users on what debt to pay down first, and how they could be earning more interest based on different savings account options (4) (5). 
 
-* What solution does this company offer that their competitors do not or cannot offer? (What is the unfair advantage they utilize?)
-	Quick check on credit score (acquisition of Check) (8)
-	Can pay bills directly on the app (acquisition of Check) (9). YNAB cannot do this.
-	Massive network of intuit. This gives them an edge on advertisement, referrals, and sale of user data (6).
-	If one of their competitors is banks (as (7) argues), then: Mint shows all accts in one place, is a digital financial advisor, simplifies bill payments, Markets competitive CCs, Markets 3rd party loans
+In 2014, Mint purchased an application called Mint Bills for $350M. Mint Bills (formally Check) allowed users to pay bills through the application, and generated revenue by allowing credit card and insurance advertisements in the app(22). In general, Mint is attempting to give users visibility into and control of their finances from a single application. 
+
+Mint has a very large customer target, due to the ubiquitous nature of cellular telephones. Anyone interested in gaining control of their finances by using modern, personal technology is an intended customer for Mint. Mint is estimated to be used by over 20 Million customers. The most common user of Mint is young professionals, although how much of the customer base they make up is unknown (7).
+
+It is this author's opinion that Mint was able to acquire their massive customer base (and competitive advantage) through several key factors, listed below. 
+
+1. First out the gate: Mint was the first, or at least the best at the time, to aggregate all of the user's data, automatically categorize it, and present it in a tidy bow. While Quicken and Microsoft Money did some of what Mint does, we can know - through the continuing success of Mint - that they didn't or don't do it like Mint does.
+
+2. The Behemoth Intuit: Mint has the disproportionate advantage of Intuit's resources. At an estimated $6.9B in revenue (23), Intuit has the capability to absorb (read: acquire) nearly any financial player that it deems profitable or threatening to their current sandbox. Intuit has acquired several companies specifically to increase Mint's capabilities, as we have seen with the acquisition of Check in 2014. 
+
+3. Check acquisition - this allowed Mint to provide bill pay from the app. In addition to this, and mentioned earlier, Mint purchased Check's revenue stream, which is built on credit card and insurance advertisements. Mint has leveraged this stream to recommend specific credit cards to their users, and to provide a quick check on the user's credit score. - a targeted service that competitors cannot offer (8,9).
 
 * Which technologies are they currently using, and how are they implementing them? (This may take a little bit of sleuthing–– you may want to search the company’s engineering blog or use sites like Stackshare to find this information.)
 	Security
@@ -144,3 +140,5 @@ Sources:
 * (19) - https://mashable.com/2011/09/27/mint-aaron-patzer-interview/
 * (20) - https://neilpatel.com/blog/how-mint-grew/
 * (21) - https://www.quora.com/How-did-Mint-acquire-1-0m+-users-without-a-high-viral-coefficient-scalable-SEO-strategy-or-paid-customer-acquisition-channel
+* (22) - https://www.wsj.com/articles/intuit-in-talks-to-buy-mobile-finance-app-1398826760?tesla=y
+* (23) - https://www.crunchbase.com/organization/intuit#section-interest-signals-by-bombora
