@@ -28,31 +28,29 @@ It is this author's opinion that Mint was able to acquire their massive customer
 
 ### Technologies in Use
 
-The following presents an overview of all of the technologies and applications that Mint uses to provide its service. Sleuthing is still underway to find descriptions of the exact Fintech algorithms and technologies that Mint employs. The majority of these technologies were found using Crunchbase.com (24)
+Mint originally used Yodlee as account aggregation across different bank platforms (21), but after it acquired Check, it incorporated Check's proprietary account aggregation technology (9). Mint used yellow pages to accurately categorize transactions. 
 
-#### 	Security
-* Account aggregation - proprietary tech
-* Transaction Classification - standard industry classification codes (yellow page search engine)
+Yodlee is a service that stores login data for specific users, and uses that information to log into the user's bank and pull their financial transactions (31). Multiple services incorporate the use of Yodlee, including Mint's competitors. 
+
+
+The following presents an overview of some of the other technologies and applications that Mint uses to provide its service. The majority of these technologies and their descriptions were found using Crunchbase.com (24)
 
 ####	Application Data
 * PHP
-	* What is it: Programming language for web development. Server side scripting, command line scripting, writing desktop applications
+	* What is it: Programming language for web development. It allows server side scripting and command line scripting, and writing desktop applications that communicate with a cetral server in an organized manner.
 
-	* How it works: works with web server to deliver web pages to specific computers that are requesting information. Web pages use some scripting language (html, others) to communicate the web page data. Server interprets that language and turns it into something useful. (15)
-	
-	* Author's Understanding: Mint uses PHP to quickly translate packets of information from the user to Mint's servers.
+	* How it works: PHP works with web servers to deliver web pages to specific computers that are requesting information. Web pages use some scripting language (html, others) to communicate the web page data. Server interprets that language and turns it into something useful. (15)
 
 * Nginx
 	* What is it: NGINX is open source software for web serving, reverse proxying, caching, load balancing, media streaming, and more.
 	
 	* How it works: Basically, it's a web server that allows for performance optimization under scale. Uses asynchronous, event-driven approach where requests are handled in a single thread as opposed to new processes for each web request. This multiple processes can be controlled by a single process. 
 .
-
 * Bootstrap
 	* What is it: Framework for developing responsive and mobile-first websites. 
 
 	
-	* Author's Understanding: Mint uses this to allow users to run the app on a multitude of mobile devices, thus allowing different types of hardware (specifically cell phones or tablets) to utilize their application. 
+	* Author's Summary: Mint uses this to allow users to run the app on a multitude of mobile devices, thus allowing different types of hardware (specifically cell phones or tablets) to utilize their application. 
 	
 #### Utilities
 * Amazon Cloudfront
@@ -81,26 +79,23 @@ The following presents an overview of all of the technologies and applications t
 
 
 * AlertBot
-	* What is it: fully integrated monitoring platform. Monitors whatever you tell it to.
+	* What is it: fully integrated monitoring platform. Monitors whatever the customer/user tells it to. Delivers custom alerts.
 
 
 #### Business Tools
 * Jira 
-	* What is it: Agile product development tool
+	* What is it: Agile product development tool. Allows for quick iteration and a snapshot of the current step in the development process.
 
 * Drupal 
-	* What is it: Free and open-source content mgmt framework
+	* What is it: Free and open-source content management framework. 
 
 
 * Get Satisfaction
-	* What is it: Customer satisfaction software that seems to integrate the software into social media, establish online chat tools, etc.
-
-#### Specific Fintech Technologies
-Still sleuthing about for this information.
+	* What is it: Customer satisfaction software that seems to integrate the software into social media, establish online chat tools, etc. The little interactive chat box at the bottom of websites.
 	
 ## Landscape:
 
-Mint started specifically in the personal finance domain, and added services within wealth management when they expanded their scope. The personal finance domain really kicked off with Mint and has since expanded in user volume and competitors. Since Mint's inception, several companies have sprouted. These companies occupy different needs in the personal finance and wealth management domains. Companies like Personal Capital, Credit Karma, Tiller, YNAB, have revolutionized the way that individuals interact with their finances. 
+Mint started specifically in the personal finance domain, and added services within wealth management when they expanded their scope. The personal finance domain really kicked off with Mint and has since expanded in user volume and competitors (4). Since Mint's inception, several companies have sprouted. These companies occupy different needs in the personal finance and wealth management domains. Companies like Personal Capital, Credit Karma, Tiller, YNAB, have revolutionized the way that individuals interact with their finances. 
 
 Personal Capital started in 2009 as SafeCorp Financial Corporation. The main goal of the company is to provide wealth management to users. They offer both free and paid versions of their products. The free version gives users a snapshot of their financial status, while the paid version offers financial advice and wealth management from actual humans (26). 
 
@@ -134,7 +129,7 @@ Another service that is not currently available is the ability to control users'
 Sources:
 * (1) - https://www.crunchbase.com/person/aaron-patzer#section-jobs
 * (2) - https://en.wikipedia.org/wiki/Mint.com
-* (3) - https://www.crunchbase.com/search/funding_rounds/field/organizations/last_funding_type/haveamint (picture)
+* (3) - https://www.crunchbase.com/search/funding_rounds/field/organizations/last_funding_type/haveamint
 * (4) - Podcast: Ep072 "The Startup Playbook Podcast"
 * (5) - https://www.mint.com/
 * (6) - https://www.investopedia.com/articles/personal-finance/082216/how-mintcom-makes-money-intu.asp
@@ -162,8 +157,5 @@ Sources:
 * (28) - https://techcrunch.com/2017/05/09/credit-karma-unclaimed-money/
 * (29) - https://www.tillerhq.com/the-best-budgeting-app-isnt-an-app/
 * (30) - https://www.owler.com/company/youneedabudget
+* (31) - https://www.quora.com/How-does-Yodlee-com-works-to-get-bank-statements
 
-
-	* How it works:
-
-	* Author's Understanding: 
