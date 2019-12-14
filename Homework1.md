@@ -132,30 +132,34 @@ The following presents an overview of all of the technologies and applications t
 Still sleuthing about for this information.
 	
 ## Landscape:
-* What domain of the financial industry is the company in?
-	Personal finance, wealth management
-* What have been the major trends and innovations of this domain over the last 5-10 years?
-	Purchased by Intuit in 2009. Purchased Check in 2014. Integrates with Quicken. Added targeted ads and recommends better solutions and credit cards. They seem to be in a steady state.
-* What are the other major companies in this domain?
-	Personal capital, credit karma, tiller, ynab
+
+Mint started specifically in the personal finance domain, and added services within wealth management when they expanded their scope. The personal finance domain really kicked off with Mint and has since expanded in user volume and competitors. Since Mint's inception, several companies have sprouted. These companies occupy different needs in the personal finance and wealth management domains. Companies like Personal Capital, Credit Karma, Tiller, YNAB, have revolutionized the way that individuals interact with their finances. 
+
+Personal Capital started in 2009 as SafeCorp Financial Corporation. The main goal of the company is to provide wealth management to users. They offer both free and paid versions of their products. The free version gives users a snapshot of their financial status, while the paid version offers financial advice and wealth management from actual humans (26). 
+
+Credit Karma was founded in 2007, slightly before Mint, but focuses on credit scores and reports, and more recently, helping users find unclaimed money. (27,28) 
+
+Tiller is an online budgeting spreadsheet, more than it is a mobile budgeting app. It uses google sheets to provide users a more reliable and sustainable method for tracking their finances. Tiller was created in 2015. (29)
+
+YNAB is a personal budgeting app that utilizes the "envelope method" to account for all of a users cash on hand. YNAB was created in 2004 by a husband and wife. YNAB also allows users to form a an aggregate of their total net worth, while alos providing exportable historical information for the user. They do not offer any management or advisement services (30). 
+
+
 
 ## Results
-* What has been the business impact of this company so far?
-	Before mint, there were several separate budgeting apps. Quicken, microsoft money to manage personal and business income. No automatic categorization, yellow pages was used to identify the different transactions and their locations. Since then, we've seen automatic linking of multiple accounts into a single location for users to identify, categorize, and budget their transactions. Apps like YNAB allow users to follow a specific budgeting methodolgy to manage money. Mint is arguably the watershed app for personal finance, online wealth management, and possibly POS payment apps. (Source, my balls)
 
-* What are some of the core metrics that companies in this domain use to measure success? How is your company performing, based on these metrics?
-	# Users, paid vs free (guess), Traffic to site (quora interview), #EEs
+Before mint, there were several separate budgeting apps. Quicken and microsoft money existed to manage personal and business income. These services did not offer automatic categorization, and yellow pages was used to identify the different transactions and their locations. Since then, we've seen automatic linking of multiple accounts into a single location for users to identify, categorize, and budget their transactions. Apps like YNAB allow users to follow a specific budgeting methodolgy to manage money. Mint is arguably the watershed app for personal finance, online wealth management, and possibly POS payment apps. 
 
-* How is your company performing relative to competitors in the same domain?
-	Mint is currently the top, and the largest, based on web traffic data, although they are shrinking. (crunchbase). YNAB is the next closest, followed by Personal Capital, and with Tiller in the rear. 
+Mint tracks the amount of users (paid vs free), and traffic to the site as its core metrics (21). In comparison to its competitors, Mint is currently the top, and the largest, based on web traffic data, although they are shrinking. (1). YNAB is the next closest, followed by Personal Capital, and with Tiller in the rear.
+	 
 
 ## Recommendations
-* If you were to advise the company, what products or services would you suggest they offer? (This could be something that a competitor offers, or use your imagination!) 
-Keep the app lightweight (complaint about it being too rigid)
+This author offers three methods to keep or increase Mint's market share. Although Mint is currently in the forefront of personal finance management, we have seen several companies poaching off potential customers. These customers want something lightweight, easy to use, and personal. Mint could increase their account aggregation and services by providing users the ability to invest from their platform and then by offering financial and investment services to users.
+
+AApps like Robinhood have revolutionized the ability for users to make investments on their own by lowering the barriers to entry for those that aren't educated in stocks. Private capital is already performing the advice portion. Combining the two from the mint user's budget will incentivize new users and keep existing ones. 
 	1. Provide financial and investment advice to users. 
 	2. Find a way to control user's spending. Everything at this point is on the reactive end. 
 * Why do you think that offering this product or service would benefit the company?
-	1. Apps like Robinhood have revolutionized the ability for users to make investments on their own by lowering the barriers to entry for those that aren't educated in stocks. Private capital is already performing the advice portion. Combining the two from the mint user's budget will incentivize new users and keep existing ones. 
+	1. 
 	2. I can set budgets all day, but sticking to them is another story.
 * What technologies would this additional product or service utilize? 
 * Why are these technologies appropriate for your solution?
@@ -188,3 +192,10 @@ Sources:
 * (22) - https://www.wsj.com/articles/intuit-in-talks-to-buy-mobile-finance-app-1398826760?tesla=y
 * (23) - https://www.crunchbase.com/organization/intuit#section-interest-signals-by-bombora
 * (24) - https://www.crunchbase.com/organization/haveamint#section-overview
+* (25) - https://www.cbinsights.com/research/personal-finance-apps-strategies/
+* (26) - https://www.cnbc.com/2015/05/12/personal-capital-disruptor-50.html
+* (27) - https://www.creditkarma.com/about
+* (28) - https://techcrunch.com/2017/05/09/credit-karma-unclaimed-money/
+* (29) - https://www.tillerhq.com/the-best-budgeting-app-isnt-an-app/
+* (30) - https://www.owler.com/company/youneedabudget
+
